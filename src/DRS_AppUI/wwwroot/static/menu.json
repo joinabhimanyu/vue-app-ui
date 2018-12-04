@@ -1,0 +1,98 @@
+[
+  {
+    "type": "submenu",
+    "index": "1",
+    "slot": "title",
+    "label": "Navigator One",
+    "title": "",
+    "children": [
+      {
+        "type": "menugroup",
+        "index": "0",
+        "slot": "",
+        "label": "",
+        "title": "Group One",
+        "children": [
+          {
+            "type": "menuitem",
+            "index": "1-1",
+            "slot": "",
+            "label": "item one",
+            "title": "",
+            "path": "/menuitem1",
+            "name": "submenu1.menugroup1.menuitem1",
+            "component": "@/democomp1"
+          },
+          {
+            "type": "menuitem",
+            "index": "1-2",
+            "slot": "",
+            "label": "item two",
+            "title": "",
+            "path": "/menuitem2",
+            "name": "submenu1.menugroup1.menuitem2",
+            "component": "@/democomp2"
+          }
+        ]
+      },
+      {
+        "type": "menugroup",
+        "index": "0",
+        "slot": "",
+        "label": "",
+        "title": "Group Two",
+        "children": [
+          {
+            "type": "menuitem",
+            "index": "1-3",
+            "slot": "",
+            "label": "item three",
+            "title": "",
+            "path": "/menuitem3",
+            "name": "submenu1.menugroup2.menuitem1",
+            "component": "@/democomp3"
+          }
+        ]
+      },
+      {
+        "type": "submenu",
+        "index": "1-4",
+        "slot": "title",
+        "label": "item four",
+        "title": "",
+        "children": [
+          {
+            "type": "menuitem",
+            "index": "1-4-1",
+            "slot": "",
+            "label": "item one",
+            "title": "",
+            "path": "/menuitem4",
+            "name": "submenu1.submenu1.menuitem4",
+            "component": "@/democomp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "menuitem",
+    "index": "2",
+    "slot": "",
+    "label": "Navigator Two",
+    "title": "",
+    "path": "/menuitem5",
+    "name": "menuitem5",
+    "component": "@/democomp5"
+  },
+  {
+    "type": "menuitem",
+    "index": "3",
+    "slot": "",
+    "label": "Navigator Three",
+    "title": "",
+    "path": "/menuitem6",
+    "name": "menuitem6",
+    "component": "@/democomp6"
+  }
+]

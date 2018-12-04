@@ -1,0 +1,19 @@
+{
+  "eslint.enable": true,
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.packageManager": "npm",
+  //"eslint.options": { "configFile": "../eslintrc.js" },
+  "eslint.run": "onType",
+  "eslint.trace.server": "messages",
+  "eslint.nodePath": "./node_modules",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "autoFix": true, "language": "html" },
+    { "autoFix": true, "language": "vue" }
+  ],
+  "eslint.workingDirectories": ["./ClientApp"]
+}
